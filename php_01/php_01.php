@@ -72,10 +72,8 @@ $nombre = "Pepe"
     <title>Document</title>
 </head>
 <body>
-    <h1>Soy el titulo</h1>
-    
+    <h1>Soy el titulo</h1> 
     <?php
-
         if ($nombre == "Peter"){
             echo  "<img src='1200px-Spider-Man.jpg' with='300' height='300'>";
         }
@@ -83,13 +81,16 @@ $nombre = "Pepe"
             echo "<img src='images.jfif' with='300' height='300'>";
         }
         else {
-
             echo "<img src='shinshan.jpg' with='300' height='300'>";
         }
-
     ?>
+
+   
 
 </body>
 </html>
+
+<!-- 
+https://www.imelcf.gob.pa/wp-content/plugins/location-weather/assets/images/icons/weather-icons/ -->
 
 
